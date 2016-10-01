@@ -1,0 +1,14 @@
+{
+  "name": "s3-node",
+  "version": "1.0.0",
+  "description": "test client for S3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nikhil Desai",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.6.6"
+  }
+}
