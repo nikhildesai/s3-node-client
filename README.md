@@ -3,7 +3,7 @@ A node.js client example that can upload content to S3
 
 ##Pre-requisites
 
-- The client expects credentials needed to access S3. For example, you can have these credentials set in ~/.aws.credentials
+- The client expects credentials needed to access S3. For example, you can have these credentials set in ~/.aws/credentials
 
 <pre>
 [default]
@@ -18,8 +18,10 @@ A quick way to setup credentials is to create an AWS IAM user and then grant it 
 
 ##Usage
 
-git clone <repo url>
+<pre>
+git clone https://github.com/nikhildesai/s3-node-client.git
 
 npm install
 
 node index.js
+</pre>
